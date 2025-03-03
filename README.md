@@ -12,6 +12,7 @@ This project implements a **real-time hate speech detection system** using **Dis
 ## Dataset
 The dataset is sourced from https://huggingface.co/datasets/odegiber/hate_speech18. This original dataset was highly imbalanced with approximately **9:1** ratio of non-hate to hate speech samples. To address this, **Back Translation** was applied using the **facebook/m2m100_418M** model, creating a more balanced dataset for training.
 https://huggingface.co/architrawat25
+
 https://github.com/Architrawat25/real-time-hate-speech-detection
 
 
