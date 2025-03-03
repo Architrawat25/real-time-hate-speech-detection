@@ -60,16 +60,6 @@ The model demonstrated consistent performance across both hate and non-hate clas
 - Pandas
 - Scikit-learn
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
 
 ## Next Steps
 - Build API for real-time text classification.
