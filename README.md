@@ -3,6 +3,17 @@
 ## Overview
 This project implements a **real-time hate speech detection system** using **DistilBERT**, a lightweight transformer model. Designed to classify text into **Hate** and **NoHate**. The model is trained on a balanced dataset and deployed with the aim of creating a complete end-to-end application.
 
+## Deployment
+This project is deployed and accessible online:
+
+Frontend (Netlify):
+https://hate-speech-detection-007.netlify.app/
+enter text and instantly see whether it is classified as hate speech or not, along with the model's confidence score.
+
+Backend API (Hugging Face Spaces):
+https://architrawat25-real-time-hate-speech-detection.hf.space
+FastAPI backend serves predictions from a transformer-based model and exposes REST endpoints for both single and batch predictions.
+
 ## Objective
 - Prymary objective: to build a hate speech detection model using **DistilBERT**.
 - Balance the dataset using **Back Translation** to improve model performance.
